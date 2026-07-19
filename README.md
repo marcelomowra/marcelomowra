@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Olá! Eu sou Marcelo Moura
+# 👋 Olá! Eu sou Marcelo Moura.
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&pause=1000&color=3B82F6&center=true&vCenter=true&width=900&lines=Desenvolvedor+em+Forma%C3%A7%C3%A3o;Estudante+de+An%C3%A1lise+e+Desenvolvimento+de+Sistemas;Back-end+%7C+Front-end+%7C+Cloud;Sempre+aprendendo+algo+novo." />
 
