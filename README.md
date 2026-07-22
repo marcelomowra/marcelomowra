@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- HEADER COM EFEITO COSMOS E PARTÍCULAS -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6,8,10,12,14,16,18,20,22,24&height=350&section=header&text=✨%20Marcelo%20Moura&fontSize=85&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=🚀%20Desenvolvedor%20Full%20Stack%20%7C%20Cloud%20%7C%20IA&descAlignY=60&descSize=22" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6,8,10,12,14,16,18,20,22,24&height=350&section=header&text=✨%20Marcelo%20Moura&fontSize=85&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=🚀%20Desenvolvedor%20Full%20Stack%20%7C%20Cloud%20%7C%20IA%20%7C%20Pernambuco&descAlignY=60&descSize=22" width="100%" alt="Header" />
 
-<!-- TÍTULO COM EFEITO NEBULOSA -->
+<!-- TÍTULO COM EFEITO AURORA BOREAL -->
 <h1>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="50" />
-  <span style="background: linear-gradient(45deg, #58a6ff, #f9d71c, #ff6b6b, #58a6ff, #f9d71c); background-size: 400% 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: aurora 4s ease infinite; text-shadow: 0 0 40px rgba(88,166,255,0.3); font-size: 42px;">
+  <span style="background: linear-gradient(45deg, #58a6ff, #f9d71c, #ff6b6b, #58a6ff, #f9d71c, #ff6b6b); background-size: 400% 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: aurora 4s ease infinite; text-shadow: 0 0 40px rgba(88,166,255,0.3); font-size: 42px;">
     Olá! Eu sou Marcelo Moura
   </span>
 </h1>
@@ -28,16 +28,24 @@
   0%, 100% { box-shadow: 0 0 20px rgba(88,166,255,0.2), 0 0 40px rgba(88,166,255,0.1); }
   50% { box-shadow: 0 0 40px rgba(88,166,255,0.4), 0 0 80px rgba(88,166,255,0.2); }
 }
-@keyframes count-up {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+@keyframes swing {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+@keyframes bounce-flag {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-10px) scale(1.1); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 .card-3d {
   animation: float-3d 6s ease-in-out infinite;
   transition: all 0.3s ease;
-  background: rgba(22, 27, 34, 0.9);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(48, 54, 61, 0.5);
+  background: rgba(22, 27, 34, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(48, 54, 61, 0.6);
   border-radius: 20px;
   padding: 25px;
 }
@@ -49,10 +57,31 @@
 .glow-effect {
   animation: pulse-glow 3s ease-in-out infinite;
 }
+.shimmer-effect {
+  background: linear-gradient(90deg, #0D1117 25%, #161b22 50%, #0D1117 75%);
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+.flag-bounce {
+  animation: bounce-flag 2s ease-in-out infinite;
+  display: inline-block;
+}
+.swing {
+  animation: swing 2s ease-in-out infinite;
+  display: inline-block;
+}
 </style>
 
+<!-- BADGE DE PERNAMBUCO COM EMOJI -->
+<p align="center">
+  <span style="font-size: 24px; color: #f9d71c;">📍</span>
+  <span style="background: linear-gradient(45deg, #58a6ff, #f9d71c); padding: 5px 20px; border-radius: 20px; font-size: 18px; font-weight: bold; color: #0D1117;">
+    🌴 Pernambuco - Brasil 🇧🇷
+  </span>
+</p>
+
 <!-- TEXTO DIGITANDO COM MÚLTIPLAS CORES -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=1200&height=100&lines=🚀+Desenvolvedor+Full+Stack+em+Forma%C3%A7%C3%A3o;🎓+Estudante+de+An%C3%A1lise+e+Desenvolvimento;💻+Back-end+%7C+Front-end+%7C+Cloud+Computing;⚡+Sempre+aprendendo+e+evoluindo;🌟+Apaixonado+por+Tecnologia+e+Inovação;🔥+Construindo+o+futuro+uma+linha+por+vez;🌍+Cidadão+Digital+do+Mundo;💡+Transformando+ideias+em+realidade" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=800&color=58A6FF&center=true&vCenter=true&random=false&width=1200&height=100&lines=🚀+Desenvolvedor+Full+Stack+em+Forma%C3%A7%C3%A3o;🎓+Estudante+de+An%C3%A1lise+e+Desenvolvimento;💻+Back-end+%7C+Front-end+%7C+Cloud+Computing;⚡+Sempre+aprendendo+e+evoluindo;🌟+Apaixonado+por+Tecnologia+e+Inovação;🔥+Construindo+o+futuro+uma+linha+por+vez;🌍+Cidadão+Digital+do+Mundo;💡+Transformando+ideias+em+realidade;🌴+Orgulho+de+Pernambuco" alt="Typing SVG" />
 
 <!-- BADGES PREMIUM COM HOVER 3D -->
 <p align="center">
@@ -78,8 +107,8 @@
   <img src="https://img.shields.io/github/commit-activity/m/marcelomowra/marcelomowra?style=for-the-badge&color=3FB950&label=COMMITS" alt="Commits" />
   <img src="https://img.shields.io/badge/🔥-Sempre%20Evoluindo-FF6B6B?style=for-the-badge" alt="Sempre Evoluindo" />
   <img src="https://img.shields.io/badge/⭐-Nível%20Mestre-F9D71C?style=for-the-badge" alt="Nível Mestre" />
-  <img src="https://img.shields.io/badge/🎯-Foco%20Total-58A6FF?style=for-the-badge" alt="Foco Total" />
-  <img src="https://img.shields.io/badge/💎-Qualidade-3FB950?style=for-the-badge" alt="Qualidade" />
+  <img src="https://img.shields.io/badge/🌴-Pernambuco-58A6FF?style=for-the-badge" alt="Pernambuco" />
+  <img src="https://img.shields.io/badge/🎯-Foco%20Total-3FB950?style=for-the-badge" alt="Foco Total" />
 </p>
 
 <!-- SNAKE GAME DE CONTRIBUIÇÕES COM EFEITO NEON -->
@@ -90,13 +119,19 @@
 
 <br/>
 
-<!-- WIDGET DE CLIMA E STATUS -->
+<!-- WIDGET DE CLIMA E STATUS COM LOCALIZAÇÃO -->
 <table align="center">
   <tr>
     <td align="center" style="padding: 15px 30px; background: #161b22; border-radius: 15px; border: 1px solid #30363d;">
-      <span style="font-size: 30px;">🌤️</span><br/>
-      <span style="color: #8b949e; font-size: 12px;">Status</span><br/>
-      <strong style="color: #58a6ff;">Codando</strong>
+      <span style="font-size: 30px;">🌴</span><br/>
+      <span style="color: #8b949e; font-size: 12px;">Localização</span><br/>
+      <strong style="color: #f9d71c;">Pernambuco</strong>
+    </td>
+    <td style="width: 15px;"></td>
+    <td align="center" style="padding: 15px 30px; background: #161b22; border-radius: 15px; border: 1px solid #30363d;">
+      <span style="font-size: 30px;">☀️</span><br/>
+      <span style="color: #8b949e; font-size: 12px;">Clima</span><br/>
+      <strong style="color: #58a6ff;">🌞 Ensolarado</strong>
     </td>
     <td style="width: 15px;"></td>
     <td align="center" style="padding: 15px 30px; background: #161b22; border-radius: 15px; border: 1px solid #30363d;">
@@ -107,8 +142,8 @@
     <td style="width: 15px;"></td>
     <td align="center" style="padding: 15px 30px; background: #161b22; border-radius: 15px; border: 1px solid #30363d;">
       <span style="font-size: 30px;">💻</span><br/>
-      <span style="color: #8b949e; font-size: 12px;">Trabalhando</span><br/>
-      <strong style="color: #3FB950;">Ativo</strong>
+      <span style="color: #8b949e; font-size: 12px;">Status</span><br/>
+      <strong style="color: #3FB950;">🚀 Codando</strong>
     </td>
   </tr>
 </table>
@@ -129,7 +164,8 @@
         <td width="55%" style="padding: 20px;">
           <p style="font-size: 18px; line-height: 2.2;">
             Olá! 👋 Meu nome é <strong style="color: #58a6ff; font-size: 24px;">Marcelo Moura</strong>, 
-            estudante de <strong style="color: #f9d71c;">Análise e Desenvolvimento de Sistemas</strong> 
+            <span class="flag-bounce">🌴</span> natural de <strong style="color: #f9d71c;">Pernambuco</strong>, 
+            estudante de <strong style="color: #58a6ff;">Análise e Desenvolvimento de Sistemas</strong> 
             e apaixonado por tecnologia desde criança.
           </p>
           <p style="font-size: 17px; line-height: 2;">
@@ -149,13 +185,15 @@
             </summary>
             <br/>
             <ul style="text-align: left; font-size: 16px; line-height: 2.5;">
+              <li>🌴 Natural de: <strong style="color: #f9d71c;">Pernambuco - Brasil</strong></li>
               <li>🎯 Foco principal: <strong style="color: #58a6ff;">Java, Spring Boot e React</strong></li>
               <li>☁️ Explorando: <strong style="color: #58a6ff;">AWS, Azure e GCP</strong></li>
               <li>🧠 Estudando: <strong style="color: #58a6ff;">Machine Learning e IA</strong></li>
               <li>🌍 Aberto a: <strong style="color: #58a6ff;">Colaborações Open Source</strong></li>
               <li>📚 Lema: <strong style="color: #f9d71c;">"Aprendizagem contínua é o caminho"</strong></li>
-              <li>🎮 Hobbies: <strong style="color: #58a6ff;">Jogos, Música e Tecnologia</strong></li>
+              <li>🎮 Hobbies: <strong style="color: #58a6ff;">Jogos, Música, Praia e Tecnologia</strong></li>
               <li>📖 Livro favorito: <strong style="color: #58a6ff;">"O Programador Pragmático"</strong></li>
+              <li>🍴 Comida favorita: <strong style="color: #58a6ff;">Bolo de Rolo 🍰</strong></li>
             </ul>
           </details>
         </td>
@@ -164,8 +202,8 @@
             <table>
               <tr>
                 <td align="center" style="padding: 18px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 100%;">
-                  <span style="font-size: 50px;">📍</span><br/>
-                  <strong style="font-size: 20px;">São Paulo - SP</strong><br/>
+                  <span style="font-size: 50px;" class="flag-bounce">🌴</span><br/>
+                  <strong style="font-size: 20px; color: #f9d71c;">Pernambuco</strong><br/>
                   <span style="color: #8b949e; font-size: 15px;">Brasil 🇧🇷</span>
                 </td>
               </tr>
@@ -173,7 +211,7 @@
               <tr>
                 <td align="center" style="padding: 18px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 100%;">
                   <span style="font-size: 50px;">🎓</span><br/>
-                  <strong style="font-size: 20px;">Análise e Desenvolvimento</strong><br/>
+                  <strong style="font-size: 20px; color: #58a6ff;">Análise e Desenvolvimento</strong><br/>
                   <span style="color: #8b949e; font-size: 15px;">de Sistemas</span>
                 </td>
               </tr>
@@ -181,7 +219,7 @@
               <tr>
                 <td align="center" style="padding: 18px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 100%;">
                   <span style="font-size: 50px;">💼</span><br/>
-                  <strong style="font-size: 20px;">Em Busca da</strong><br/>
+                  <strong style="font-size: 20px; color: #3FB950;">Em Busca da</strong><br/>
                   <span style="color: #8b949e; font-size: 15px;">Primeira Oportunidade 🚀</span>
                 </td>
               </tr>
@@ -189,7 +227,7 @@
               <tr>
                 <td align="center" style="padding: 18px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 100%;">
                   <span style="font-size: 50px;">📚</span><br/>
-                  <strong style="font-size: 20px;">Aprendizagem</strong><br/>
+                  <strong style="font-size: 20px; color: #f9d71c;">Aprendizagem</strong><br/>
                   <span style="color: #8b949e; font-size: 15px;">Contínua e Constante 📖</span>
                 </td>
               </tr>
@@ -208,10 +246,11 @@
 <div align="center">
   <div class="card-3d" style="padding: 30px; width: 95%;">
     <p style="font-size: 17px; line-height: 2.2;">
-      Tudo começou com a curiosidade de entender o que acontece 
+      Tudo começou em <strong style="color: #f9d71c;">Pernambuco</strong>, com a curiosidade de entender o que acontece 
       <em>"por trás das telas"</em> dos aplicativos e sites que usamos todos os dias. 
       Essa vontade de descobrir me levou ao universo da programação — 
-      onde encontrei uma área que combina lógica, criatividade e aprendizado contínuo.
+      onde encontrei uma área que combina lógica, criatividade, aprendizado contínuo e 
+      a oportunidade de levar o nome de <strong style="color: #f9d71c;">Pernambuco</strong> para o mundo da tecnologia.
     </p>
     <br/>
     
@@ -335,31 +374,4 @@
       <td style="width: 15px;"></td>
       <td align="center" style="padding: 25px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 33%;">
         <span style="font-size: 50px;">🤖</span>
-        <h3 style="margin: 10px 0; color: #58a6ff; font-size: 22px;">Inteligência Artificial</h3>
-        <span style="color: #8b949e; font-size: 15px;">Aprofundar em IA e<br/>Machine Learning</span>
-        <div style="height: 4px; width: 80%; background: linear-gradient(90deg, #58a6ff, #f9d71c); margin: 15px auto; border-radius: 2px;"></div>
-        <span style="font-size: 14px; color: #f0883e;">🔮 Visão futura</span>
-        <div style="width: 90%; margin: 10px auto; background: #0D1117; border-radius: 10px; height: 8px;">
-          <div style="width: 20%; background: linear-gradient(90deg, #f0883e, #f9d71c); border-radius: 10px; height: 8px;"></div>
-        </div>
-        <span style="color: #8b949e; font-size: 12px;">20%</span>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="5" style="height: 15px;"></td>
-    </tr>
-    <tr>
-      <td align="center" style="padding: 25px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 33%;">
-        <span style="font-size: 50px;">💼</span>
-        <h3 style="margin: 10px 0; color: #58a6ff; font-size: 22px;">Full Stack</h3>
-        <span style="color: #8b949e; font-size: 15px;">Atuar com arquiteturas<br/>robustas e escaláveis</span>
-        <div style="height: 4px; width: 80%; background: linear-gradient(90deg, #58a6ff, #f9d71c); margin: 15px auto; border-radius: 2px;"></div>
-        <span style="font-size: 14px; color: #58a6ff;">🎯 Meta principal</span>
-        <div style="width: 90%; margin: 10px auto; background: #0D1117; border-radius: 10px; height: 8px;">
-          <div style="width: 60%; background: linear-gradient(90deg, #58a6ff, #3FB950); border-radius: 10px; height: 8px;"></div>
-        </div>
-        <span style="color: #8b949e; font-size: 12px;">60%</span>
-      </td>
-      <td style="width: 15px;"></td>
-      <td align="center" style="padding: 25px; background: #161b22; border-radius: 15px; border: 1px solid #30363d; width: 33%;">
-        <span style="font-size: 50px;">?
+        <h3 style="margin: 10px 0; color: #58a6ff; font-size: 22px;">Inteligência Artificial<
